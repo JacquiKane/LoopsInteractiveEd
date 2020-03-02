@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Use for IOA -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <style>
+
+    </style>
+
+
+
+    <body>
+        <div class="container">
+            <div class="row">
+                <div class="col md-5">
+                    <section class="card mb-5 border-warning" id="while">
+                        <div class="card-body">
+                            <h2 class="card-title">While Loop in Java</h2>
+                            <img class="img-fluid card-img" src="images\whileloopflowforcard.png" alt="while loop">
+                            <h5 class="card-subtitle">Iteration</h5>
+                            <p class="card-text">The while loop runs until the loop condition is no longer true. Initialization for the loop is done before the loop, and the body of the while loop should take care of updating the loop condition, like incrementing/decrementing
+                                the sentry variable. </p>
+
+
+                            <button type="button" class="btn btn-primary mt-4 questionButton" data-toggle="modal" data-target="#whileformat">Format</button>
+
+                            <div class="modal fade" id="whileformat">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title"></h5>While Loop Format</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                                <span aria-hidden=true>&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                <img class="img-fluid card-img" src="images\formatwhile.png" alt="for loop"> The Boolean expression forms the loop condition, and determines how many iterations there are. The loop stops when the Boolean
+                                                expression is no longer true. This expression could be set to true at some point, or always be true, for an infinite loop. Typically, a sentry variable is used in the Boolean expression to set a limit on
+                                                the number of iterations. This is done by comparing the sentry variable to a maximum value, with one of the relational operators ( &lt; &gt;, …).
+
+                                            </p>
+                                        </div>
+                                        <!-- modal body -->
+                                        <div class="modal-footer">
+                                            <span> Iteration </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+
+
+                            <button type="button" class="btn btn-primary mt-4 questionButton" data-toggle="modal" data-target="#whileexample">Example</button>
+
+                            <div class="modal fade" id="whileexample">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title"></h5>While Loop Example</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                            <span aria-hidden=true>&times;</span>
+                                        </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                <img class="img-fluid card-img" src="images\whileforcard.png" alt="for loop"> This loop runs 4 times. The sentry variable, index, is specifically initialized to 1, before the loop. Control flows into the
+                                                loop because the loop condition,
+                                                <em>index &lt; 5</em>, is true.<br> Each time through the loop - in the body of the loop, the value of the sentry variable, index, is increased. The print happens when index has a value of 1,2,3,4 - but
+                                                not 5, because now the loop condition is false. Therefore the loop runs 4 times.The output looks like this<br>
+                                                <br> This is the value of index : 1<br> This is the value of index : 2
+                                                <br> This is the value of index : 3<br> This is the value of index : 4<br>
+
+                                            </p>
+                                        </div>
+                                        <!-- modal body -->
+                                        <div class="modal-footer">
+                                            <span> Iteration </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </section>
+                </div>
+
+                <div class="col md-5">
+                    <section class="card mb-5 border-warning" id="while">
+                        <div class="card-body">
+                            <h2 class="card-title">For Loop In Java</h2>
+                            <img class="img-fluid card-img" src="images\forloopflowforcard.png" alt="for loop">
+                            <h5 class="card-subtitle">Iteration</h5>
+                            <p class="card-text">The regular for loop in Java runs until the loop condition is no longer true. Initialization is included in the for loop syntax, as well as a condition, and an option to update the loop condition, typically by modifying the
+                                sentry variable.</p>
+
+                            <button type="button" class="btn btn-primary mt-4 questionButton" data-toggle="modal" data-target="#forformat">Format</button>
+
+                            <div class="modal fade" id="forformat">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title"></h5>For Loop Format</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                                    <span aria-hidden=true>&times;</span>
+                                                </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                <img class="img-fluid card-img" src="images\forformat.png" alt="for loop">
+                                                <p>
+                                                    The for loop includes an initialization, which sets a a pre-condition for the loop, like initializing a sentry variable. The Boolean expression forms the loop condition, and determines how many iterations there are. This expression could be set to true,
+                                                    or always be true, for an infinite loop. Typically, a sentry variable is used in the Boolean expression to set a limit on the number of iterations. This is done by comparing the sentry variable to a
+                                                    maximum value, with one of the relational operators (&lt;, &gt;, …) This loop includes an optional ‘loop statement’, which is executed after each loop iteration. Typically, it is used to update a sentry
+                                                    variable.
+
+
+                                                </p>
+
+                                            </p>
+                                        </div>
+                                        <!-- modal body -->
+                                        <div class="modal-footer">
+                                            <span> Iteration </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                            <button type="button" class="btn btn-primary mt-4 questionButton" data-toggle="modal" data-target="#forexample">Example</button>
+
+                            <div class="modal fade" id="forexample">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title"></h5>For Loop Example</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                            <span aria-hidden=true>&times;</span>
+                                        </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                <img class="img-fluid card-img" src="images\forforcard.png" alt="for loop"> This loop runs 4 times. The sentry variable is initialized to 1, and control flows into the loop because the loop condition,
+                                                <em>count &lt; 5</em>, is true.<br> Each time through the loop, the value of the sentry variable, count, is increased. The print happens when count has a value of 1,2,3,4 - but not 5, because now the loop
+                                                condition is false. Therefore the loop runs 4 times.The output looks like this
+                                                <br>
+                                                <br> This is the value of count : 1<br> This is the value of count : 2<br> This is the value of count : 3<br> This is the value of count : 4<br>
+
+                                            </p>
+                                        </div>
+                                        <!-- modal body -->
+                                        <div class="modal-footer">
+                                            <span> Iteration </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+            </div>
+            <!-- row end -->
+        </div>
+        <!-- End main container -->
+        <!-- container-->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+    </body>
+
+</html>
