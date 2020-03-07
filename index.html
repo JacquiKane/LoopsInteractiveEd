@@ -15,13 +15,13 @@
 
     <body>
         <div class="container">
-            <div class="row">
+            <div class="row row-cols-s-1 row-cols-sm-2 row-cols-2 row-cols-md-3 row-cols-lg-4">
                 <div class="col md-5">
                     <section class="card mb-5 border-warning" id="while">
                         <div class="card-body">
-                            <h2 class="card-title">While Loop in Java</h2>
+                            <h2 class="card-title">While Loop</h2>
                             <img class="img-fluid card-img" src="images\whileloopflowforcard.png" alt="while loop">
-                            <h5 class="card-subtitle">Iteration</h5>
+                            <h5 class="card-subtitle">Recognize While Loop</h5>
                             <p class="card-text">The while loop runs until the loop condition is no longer true. Initialization for the loop is done before the loop, and the body of the while loop should take care of updating the loop condition, like incrementing/decrementing
                                 the sentry variable. </p>
 
@@ -34,8 +34,8 @@
                                         <div class="modal-header">
                                             <h5 class="modal-title"></h5>While Loop Format</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="close">
-                                                <span aria-hidden=true>&times;</span>
-                                            </button>
+                                            <span aria-hidden=true>&times;</span>
+                                        </button>
                                         </div>
                                         <div class="modal-body">
                                             <p>
@@ -96,9 +96,9 @@
                 <div class="col md-5">
                     <section class="card mb-5 border-warning" id="while">
                         <div class="card-body">
-                            <h2 class="card-title">For Loop In Java</h2>
+                            <h2 class="card-title">For Loop</h2>
                             <img class="img-fluid card-img" src="images\forloopflowforcard.png" alt="for loop">
-                            <h5 class="card-subtitle">Iteration</h5>
+                            <h5 class="card-subtitle">Recognize For Loop</h5>
                             <p class="card-text">The regular for loop in Java runs until the loop condition is no longer true. Initialization is included in the for loop syntax, as well as a condition, and an option to update the loop condition, typically by modifying the
                                 sentry variable.</p>
 
@@ -110,8 +110,8 @@
                                         <div class="modal-header">
                                             <h5 class="modal-title"></h5>For Loop Format</h5>
                                             <button type="button" class="close" data-dismiss="modal" aria-label="close">
-                                                    <span aria-hidden=true>&times;</span>
-                                                </button>
+                                            <span aria-hidden=true>&times;</span>
+                                        </button>
                                         </div>
                                         <div class="modal-body">
                                             <p>
@@ -170,8 +170,300 @@
                     </section>
                 </div>
 
+                <div class="col md-5">
+                    <section class="card mb-5 border-warning" id="infiniteloop">
+                        <div class="card-body">
+                            <h2 class="card-title">Infinite Loop</h2>
+                            <img class="img-fluid card-img" src="images\infiniteloop.png" alt="infinite loop">
+                            <h5 class="card-subtitle">Spot An Infinite Loop</h5>
+                            <p class="card-text">Loops run until the loop condition is no longer true. If the loop condition is <i>always true</i> then the loop will keep on going. This may happen accidentally if the control variable is not altered in the body of the loop.
+                            </p>
+
+                            <button type="button" class="btn btn-primary mt-4 questionButton" data-toggle="modal" data-target="#infiniteloopexample">Examples</button>
+
+                            <div class="modal fade" id="infiniteloopexample">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title"></h5>Infinite Loop</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                            <span aria-hidden=true>&times;</span>
+                                        </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                <img class="img-fluid card-img" src="images\exinfiniteloop.png" alt="infinite loop, examples">
+                                                <p>
+                                                    The loop condition has to change
+                                                </p>
+
+                                            </p>
+                                        </div>
+                                        <!-- modal body -->
+                                        <div class="modal-footer">
+                                            <span> Iteration </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+
+
+                    </section>
+                </div>
+
+
+                <div class="col md-5">
+                    <section class="card mb-5 border-warning" id="interpretingloops">
+                        <div class="card-body">
+                            <h2 class="card-title">Interpreting Loops</h2>
+                            <img class="img-fluid card-img" src="images\howmanyiterations.png" alt="interpreting loops">
+                            <h5 class="card-subtitle">How many Iterations?</h5>
+                            <p class="card-text">You will need to determine how many times a loop runs. This is key to figuring out the consequences of the loop's execution.
+                            </p>
+
+                            <button type="button" class="btn btn-primary mt-4 questionButton" data-toggle="modal" data-target="#interpretloopexample">Examples</button>
+
+                            <div class="modal fade" id="interpretloopexample">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title"></h5>Numer Of Iterations</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                            <span aria-hidden=true>&times;</span>
+                                        </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                <img class="img-fluid card-img" src="images\timesloopruns.png" alt="interpreting loops, examples">
+                                                <p>
+                                                    Code your own example, see if you can predict the value of a variable changed in the body of a loop. Run your code, check your prediction. Increment the sentry variable by values other than 1.
+                                                </p>
+
+                                            </p>
+                                        </div>
+                                        <!-- modal body -->
+                                        <div class="modal-footer">
+                                            <span> Iteration </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+
+
+                    </section>
+                </div>
             </div>
-            <!-- row end -->
+            <!-- row 1 end -->
+
+            <!-- ROW 2-->
+            <div class="row row-cols-s-1 row-cols-sm-2 row-cols-2 row-cols-md-3 row-cols-lg-4">
+                <div class="col md-5">
+                    <section class="card mb-5 border-warning" id="changingnonsentry">
+                        <div class="card-body">
+                            <h2 class="card-title">Changing Values, Loop</h2>
+                            <img class="img-fluid card-img" src="images\changedatavals.png" alt="changing data values">
+                            <h5 class="card-subtitle">Data Changed In Loop</h5>
+                            <p class="card-text">If you understand how a loop works, and evaluate the impact of statements, conditionals inside a loop, then you can predict the values changed within the body of a loop.
+                            </p>
+
+
+                            <button type="button" class="btn btn-primary mt-4 questionButton" data-toggle="modal" data-target="#valueschanged">Example</button>
+
+                            <div class="modal fade" id="valueschanged">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title"></h5>Changing Data Values In Loop</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                            <span aria-hidden=true>&times;</span>
+                                        </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                <img class="img-fluid card-img" src="images\valueofvar.png" alt="changing values"> The sentry variable may not be the only variable changing values. Each time through the loop, other variables may also change.
+                                                Key? Knowing what happens each time through the loop, and how many times the loop executes.
+                                            </p>
+                                        </div>
+                                        <!-- modal body -->
+                                        <div class="modal-footer">
+                                            <span> Iteration </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </section>
+                </div>
+
+                <div class="col md-5">
+                    <section class="card mb-5 border-warning" id="includingconditionals">
+                        <div class="card-body">
+                            <h2 class="card-title">Conditionals In Loops</h2>
+                            <img class="img-fluid card-img" src="images\loopsconditionals.png" alt="conditionals in loop">
+                            <h5 class="card-subtitle">Watch For Conditionals!</h5>
+                            <p class="card-text">Conditionals may control what happens in the body of a loop.</p>
+
+                            <button type="button" class="btn btn-primary mt-4 questionButton" data-toggle="modal" data-target="#conditionalsinloops">Example</button>
+
+                            <div class="modal fade" id="conditionalsinloops">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title"></h5>Conditionals In Loops</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                            <span aria-hidden=true>&times;</span>
+                                        </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                <img class="img-fluid card-img" src="images\exloopconditional.png" alt="conditional and loop">
+                                                <p>
+                                                    Code your own example, predict the outcome, and then run the code to verify.
+                                                </p>
+
+                                            </p>
+                                        </div>
+                                        <!-- modal body -->
+                                        <div class="modal-footer">
+                                            <span> Iteration </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+
+                        </div>
+                    </section>
+                </div>
+
+                <div class="col md-5">
+                    <section class="card mb-5 border-warning" id="highestvaluenestedloop">
+                        <div class="card-body">
+                            <h2 class="card-title">Nested Loop</h2>
+                            <img class="img-fluid card-img" src="images\nestedloops.png" alt="nested loops">
+                            <h5 class="card-subtitle">Evaluate Nested Loop</h5>
+                            <p class="card-text">For each value of the sentry varaible in the outer loop, the inner loop fully executes.
+                            </p>
+
+                            <button type="button" class="btn btn-primary mt-4 questionButton" data-toggle="modal" data-target="#nestedloopexample">Example</button>
+
+                            <div class="modal fade" id="nestedloopexample">
+                                <div class="modal-dialog">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title"></h5>Nested Loop</h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="close">
+                                            <span aria-hidden=true>&times;</span>
+                                        </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <p>
+                                                <img class="img-fluid card-img" src="images\highestvalnestedloop.png" alt="nested loop, examples">
+                                                <p>
+                                                    The inner loop runs for each iteration of the outer loop.
+                                                </p>
+
+                                            </p>
+                                        </div>
+                                        <!-- modal body -->
+                                        <div class="modal-footer">
+                                            <span> Iteration </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+
+
+
+                    </section>
+                </div>
+
+
+                <div class="col md-5">
+                    <section class="card mb-5 border-warning" id="loopvocab">
+
+                        <div class="card-body">
+                            <h2 class="card-title">Loop Terminology</h2>
+                            <h5 class="card-subtitle">Tech Terms To Recognize</h5>
+                            <p class="card-text">Words are critical in developing computer science vocabulary.
+                            </p>
+                            <div id="terminologyaccordian" role="tablist" aria-multiselectable="true">
+
+
+                                <div>
+                                    <button class=" btn btn-primary mb-3" data-toggle="collapse" data-target="#iteration" aria-expanded="Link to iteration">
+                                       Iteration >>
+                                    </button>
+                                    <div id="iteration" class="collapse mb-3">
+                                        <p>Looping over and over again, repeating lines of code that have only been written once
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <div>
+                                    <button class=" btn btn-primary mb-3" data-toggle="collapse" data-target="#sentryvar" aria-expanded="Link to sentry variables">
+                                       Sentry Variable >>
+                                    </button>
+                                    <div id="sentryvar" class="collapse mb-3">
+                                        <p>Also called control variable, loop variable. This variable guards access to the loop, by forming the key part of a Boolean expression.
+                                        </p>
+                                    </div>
+                                </div>
+
+
+                                <div>
+                                    <button class=" btn btn-primary mb-3" data-toggle="collapse" data-target="#loopcon" aria-expanded="Link to loops with conditionals">
+                                       Loop Condition >>
+                                    </button>
+                                    <div id="loopcon" class="collapse mb-3">
+                                        <p>Boolean expression that controls the loop. The loop execututes if the loop condition is true, not if it is false.
+                                        </p>
+                                    </div>
+                                </div>
+
+
+
+                                <div>
+                                    <button class=" btn btn-primary mb-3" data-toggle="collapse" data-target="#infloop" aria-expanded="Link to infinite loop">
+                                       Infinite Loop >>
+                                    </button>
+                                    <div id="infloop" class="collapse mb-3">
+                                        <p>Loop that keeps on executing without terminating because the loop condition is always true
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                    </section>
+
+
+                    </div>
+
+
+
+
+                </div>
+            </div>
+            <!-- END ROW 2-->
+
+
+
         </div>
         <!-- End main container -->
         <!-- container-->
